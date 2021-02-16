@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_img2pose</name>
+  <version>0.1.0</version>
+  <description>ROS img2pose package</description>
+  <maintainer email="marton@hypergraph.cloud">nilseuropa</maintainer>
+
+  <license>CC BY-NC 4.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>rospkg</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>python-numpy</depend>
+  <depend>python-torchvision</depend>
+  <depend>python-PIL</depend>
+  <depend>python-math</depend>
+
+</package>
