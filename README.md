@@ -22,6 +22,12 @@ pip3 install -r requirements.txt
 
 ## Usage
 
+Before running it for the first time extract the included model:
+
+```bash
+cd models && ./extract_models.sh
+```
+
 There is currently a single wrapper node that loads the model, subscribes to a sensor_msgs/Image topic, runs the prediction in the image callback function and renders 6DOF head pose onto the frames in a form of colored axes.
 
 ```bash
